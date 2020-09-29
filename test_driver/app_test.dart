@@ -1,7 +1,6 @@
 // Imports the Flutter Driver API.
 import 'package:flutter_driver/flutter_driver.dart';
 import 'package:test/test.dart';
-//TODO: flutter drive --target=test_driver/app.dart --profile
 void main() {
   group('Scrollable App', () {
     FlutterDriver driver;
