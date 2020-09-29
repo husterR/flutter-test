@@ -26,15 +26,12 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
   @override
   void dispose() {
-    // Ensure disposing of the VideoPlayerController to free up resources.
     _controller.dispose();
-
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    // Complete the code in the next step.
     return Scaffold(
         appBar: AppBar(
             title: Text('Video Test'), backgroundColor: Colors.blue),
